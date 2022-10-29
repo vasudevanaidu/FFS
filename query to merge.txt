@@ -1,0 +1,1 @@
+create table tablename as select d.email,s.q1,s.q2,s.q3,s.q4,s.q5,s.q6,s.q7 from attendance d, feedback_results s where d.Email = s.Email and d.attendance>=75;

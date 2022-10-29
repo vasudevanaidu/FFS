@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Login page </title>
+        <!-- Font Icon -->
+        <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Main css file-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body style="background: linear-gradient(to top right, #66ffcc 0%, #cc33ff 100%); height: 675px;">
+        <div class="hom">
+        <a href="index.html" style="float:left; font-size: 28px;"><i class="fa fa-home"></i></a>
+        </div>
+        <!-- Sing in  Form -->
+        <section class="sign-in">
+            <br>
+            <br>
+            <br>
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="welcome_skyblue.gif" alt="Feebdack Sign in image"></figure>
+                    </div>
+                    <div class="signin-form">
+                        <h2 class="form-title" >Login Page</h2>
+                        <form method="POST" class="register-form" id="login-form" action="login.php">
+                            <div class="form-group">
+                                <label for="your_name"><i class="zmdi zmdi-email"></i>
+                                </label>
+                                <input type="text" name="email" id="your_name" placeholder="Email address" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="your_pass" placeholder="Password"required />
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" />
+                            </div>
+                              <!--Registeration page link-->
+                        <p class="small fw-bold mt-2 pt-1 mb-0" style="font-family: Bell MT;font-size: 16px;">Don't have an account? <a href="register.html"
+                       class="link-danger" style="text-decoration: none; font-size: 20px;">Register</a></p>
+                       <br>
+                        <p class="small fw-bold mt-2 pt-1 mb-0" style="font-family: Bell MT;font-size: 16px;">Admin account? <a href="admin-login.html"
+                    style="text-decoration: none; font-size: 20px;">Admin Login</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--footer-->
+            <footer>
+                <div>
+            Feedaback system Copyright © 2022. All rights reserved.
+                </div>
+            </footer>
+        </section>
+    </body>
+</html>
